@@ -1,6 +1,6 @@
-# Aurea Website
+# Buy 2 Fun Website
 
-Premium Next.js launch website built with TypeScript, Tailwind CSS, and Framer Motion.
+Premium Next.js e-commerce website built with TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Features
 

@@ -1,7 +1,7 @@
 # AGENTS Documentation
 
 ## Project Overview
-This repository contains a premium Next.js website scaffold built for a modern launch platform called Aurea. The site is designed for production use with a responsive homepage, dark/light theme support, reusable components, SEO metadata, form handling, and authentication scaffolding.
+This repository contains a premium Next.js website scaffold built for a modern e-commerce platform called Buy 2 Fun. The site is designed for production use with a responsive homepage, dark/light theme support, reusable components, SEO metadata, form handling, and authentication scaffolding.
 
 ## Tech Stack
 - Next.js 14 (App Router)
@@ -88,6 +88,10 @@ npm start
 - The project is structured for further enhancement and production readiness.
 
 ## Changelog
+- Transformed website from launch platform to product-selling e-commerce site with updated content, features, and messaging.
+- Changed website branding from "Aurea" to "Buy 2 Fun" across all components, metadata, and documentation.
+- Updated package.json name to "buy2fun-website" and regenerated package-lock.json.
+- Fixed tsconfig.json by removing invalid ignoreDeprecations option.
 - Added a premium Next.js website scaffold with reusable components and responsive sections.
 - Implemented a dark/light theme provider and persisted theme preference.
 - Added secure contact API, validation helpers, and authentication scaffolding.

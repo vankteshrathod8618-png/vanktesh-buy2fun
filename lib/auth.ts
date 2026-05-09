@@ -18,7 +18,7 @@ export const authOptions: NextAuthOptions = {
                 const adminPassword = process.env.AUTH_PASSWORD;
 
                 if (credentials.email === adminEmail && credentials.password === adminPassword) {
-                    return { id: '1', name: 'Aurea Admin', email: adminEmail };
+                    return { id: '1', name: 'Buy 2 Fun Admin', email: adminEmail };
                 }
 
                 return null;

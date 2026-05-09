@@ -8,14 +8,14 @@ import '@/app/globals.css';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-    title: 'Aurea — Premium launch platform for modern teams',
+    title: 'Buy 2 Fun — Premium Products & Exceptional Shopping Experience',
     description:
-        'Aurea helps startups and product teams launch high-converting websites with confidence. Modern design, secure integration, and fast performance built for growth.',
+        'Discover premium products at Buy 2 Fun. Quality assurance, fast shipping, and outstanding customer service for all your shopping needs.',
     metadataBase: new URL('https://yourdomain.com'),
     openGraph: {
-        title: 'Aurea — Premium launch platform for modern teams',
+        title: 'Buy 2 Fun — Premium Products & Exceptional Shopping Experience',
         description:
-            'Aurea helps startups and product teams launch high-converting websites with confidence. Modern design, secure integration, and fast performance built for growth.',
+            'Discover premium products at Buy 2 Fun. Quality assurance, fast shipping, and outstanding customer service for all your shopping needs.',
         type: 'website',
         url: 'https://yourdomain.com',
         images: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
                 url: 'https://yourdomain.com/og-image.png',
                 width: 1200,
                 height: 630,
-                alt: 'Aurea premium website platform'
+                alt: 'Buy 2 Fun premium products and shopping experience'
             }
         ]
     },

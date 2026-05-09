@@ -1,23 +1,23 @@
 export const navItems = [
-    { label: 'Product', href: '#features' },
+    { label: 'Products', href: '#features' },
     { label: 'Pricing', href: '#pricing' },
-    { label: 'Resources', href: '#blog' },
+    { label: 'Reviews', href: '#testimonials' },
     { label: 'Contact', href: '#contact' }
 ];
 
 export const stats = [
-    { label: 'Launches powered', value: '1,250+' },
-    { label: 'Conversion boost', value: '+32%' },
-    { label: 'Secured integrations', value: '100+' }
+    { label: 'Happy Customers', value: '10,000+' },
+    { label: 'Products Sold', value: '50,000+' },
+    { label: 'Customer Satisfaction', value: '4.9/5' }
 ];
 
 export const analytics = [
-    { label: 'Page speed', value: '97/100', description: 'Optimized for performance across every device.' },
-    { label: 'Conversion-ready', value: 'Built-in', description: 'Design patterns that help visitors choose the right action.' },
-    { label: 'Enterprise grade', value: 'Secure', description: 'Authentication, forms, and scalable backend structure included.' }
+    { label: 'Quality Guarantee', value: 'Premium', description: 'Only the highest quality products with satisfaction guarantee.' },
+    { label: 'Fast Shipping', value: 'Free', description: 'Free shipping on all orders with express delivery options.' },
+    { label: 'Customer Support', value: '24/7', description: 'Round-the-clock support for all your product needs.' }
 ];
 
-export type FeatureIcon = 'rocket' | 'plug' | 'zap';
+export type FeatureIcon = 'shopping' | 'quality' | 'delivery';
 
 export interface FeatureItem {
     title: string;
@@ -27,80 +27,80 @@ export interface FeatureItem {
 
 export const features: FeatureItem[] = [
     {
-        title: 'Launch-ready product pages',
-        description: 'Launch key campaigns faster with reusable sections, modern UX, and conversion-focused layout blocks.',
-        icon: 'rocket'
+        title: 'Premium Product Selection',
+        description: 'Curated collection of high-quality products from trusted brands, ensuring you get the best value for your money.',
+        icon: 'shopping'
     },
     {
-        title: 'Enterprise-ready integrations',
-        description: 'Connect data sources, authentication, analytics, and third-party actions with secure integration points.',
-        icon: 'plug'
+        title: 'Quality Assurance',
+        description: 'Every product undergoes rigorous quality checks and comes with our satisfaction guarantee for peace of mind.',
+        icon: 'quality'
     },
     {
-        title: 'Performance-first architecture',
-        description: 'Lazy load sections, optimize assets, and use server rendering so every page feels instant.',
-        icon: 'zap'
+        title: 'Fast & Reliable Delivery',
+        description: 'Swift shipping with real-time tracking, ensuring your orders arrive safely and on time every time.',
+        icon: 'delivery'
     }
 ];
 
 export const testimonials = [
     {
         name: 'Sofia Mercer',
-        role: 'Founder, Luma Labs',
-        quote: 'Aurea gave our launch the clarity and polish we needed to win investor confidence. Every interaction feels premium and fast.'
+        role: 'Verified Customer',
+        quote: 'Buy 2 Fun exceeded my expectations! The product quality is outstanding and the delivery was lightning fast. Highly recommend!'
     },
     {
         name: 'Ethan Cole',
-        role: 'VP of Product, Helix',
-        quote: 'The design system and launch speed let our team move at a level we never expected. This is product quality reimagined.'
+        role: 'Loyal Customer',
+        quote: 'I\'ve been shopping with Buy 2 Fun for months now. Their customer service is exceptional and the products are always top-notch.'
     }
 ];
 
 export const plans = [
     {
-        name: 'Starter',
-        price: '$79',
-        description: 'Perfect for solo founders and early product launches.',
-        perks: ['Fast landing pages', 'Form capture + email-ready', 'Basic analytics']
+        name: 'Essentials Pack',
+        price: '$49',
+        description: 'Perfect for everyday needs with our most popular products.',
+        perks: ['Curated product selection', 'Free shipping', '30-day returns']
     },
     {
-        name: 'Scale',
-        price: '$199',
-        description: 'Designed for growing teams with advanced launch requirements.',
-        perks: ['A/B sections', 'Auth and protected routes', 'Analytics integrations']
+        name: 'Premium Bundle',
+        price: '$129',
+        description: 'Complete package with premium products and exclusive items.',
+        perks: ['Premium product collection', 'Express shipping', 'Priority support']
     },
     {
-        name: 'Enterprise',
-        price: 'Custom',
-        description: 'Dedicated onboarding, security review, and bespoke launch architecture.',
-        perks: ['Custom API workflows', 'SLA-grade security', 'Design system support']
+        name: 'Luxury Collection',
+        price: '$299',
+        description: 'Our finest selection for discerning customers who want the best.',
+        perks: ['Luxury product assortment', 'White-glove delivery', 'Personal shopping assistant']
     }
 ];
 
 export const faqs = [
     {
-        question: 'How does onboarding work?',
-        answer: 'Get started with a quick setup conversation, then configure your brand, launch pages, and integrations in a matter of days.'
+        question: 'How long does shipping take?',
+        answer: 'Standard shipping takes 3-5 business days. Express shipping is available for 1-2 day delivery. International orders may take 7-14 days.'
     },
     {
-        question: 'Is authentication included?',
-        answer: 'Yes. A curated auth system is integrated, with secure protected routes and flexible identity provider support for production.'
+        question: 'What is your return policy?',
+        answer: 'We offer a 30-day return policy on all products. Items must be in original condition with tags attached. Return shipping is free for defective items.'
     },
     {
-        question: 'Can you support custom backend workflows?',
-        answer: 'Absolutely. The architecture includes API-ready endpoints and environment-based connectors to extend your product stack.'
+        question: 'Do you offer international shipping?',
+        answer: 'Yes! We ship to over 50 countries worldwide. International shipping rates and delivery times vary by location.'
     }
 ];
 
 export const posts = [
     {
-        title: 'How premium product launches win attention in 2026',
-        description: 'A modern launch isn’t just a page; it’s a product experience designed to convert.',
+        title: 'Top 10 Must-Have Products for 2026',
+        description: 'Discover the trending products that everyone is talking about this year.',
         href: '#'
     },
     {
-        title: 'Design tokens that keep your brand consistent',
-        description: 'A guide for teams building a production-ready design system with scale in mind.',
+        title: 'How to Choose Quality Products Online',
+        description: 'A comprehensive guide to making smart purchasing decisions and avoiding common pitfalls.',
         href: '#'
     }
 ];

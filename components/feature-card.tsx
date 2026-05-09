@@ -1,10 +1,10 @@
-import { Zap, Rocket, Plug } from 'lucide-react';
+import { ShoppingCart, Shield, Truck } from 'lucide-react';
 import type { FeatureIcon } from '@/lib/content';
 
 const iconMap = {
-    rocket: Rocket,
-    plug: Plug,
-    zap: Zap
+    shopping: ShoppingCart,
+    quality: Shield,
+    delivery: Truck
 };
 
 interface Feature {

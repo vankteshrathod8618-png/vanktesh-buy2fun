@@ -23,18 +23,18 @@ export function HeroSection() {
                 >
                     <div className="max-w-2xl">
                         <span className="inline-flex rounded-full border border-slate-600 bg-slate-900/80 px-4 py-2 text-sm text-slate-200 shadow-sm backdrop-blur">
-                            Built for modern teams who move fast
+                            Premium Products • Fast Shipping • Quality Guarantee
                         </span>
                         <h1 className="mt-8 text-5xl font-semibold tracking-tight text-white sm:text-6xl">
-                            Launch premium product experiences with speed and confidence.
+                            Discover Premium Products That Enhance Your Lifestyle
                         </h1>
                         <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
-                            Aurea combines elegant interfaces, secure integrations, and conversion-first page architecture so you can focus on building momentum.
+                            Buy 2 Fun offers a curated selection of high-quality products with exceptional customer service, fast shipping, and unbeatable value.
                         </p>
                         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                            <Button href="#pricing">Start your launch</Button>
+                            <Button href="#pricing">Shop Now</Button>
                             <Button variant="secondary" href="#features">
-                                Explore features
+                                View Products
                             </Button>
                         </div>
                         <div className="mt-12 grid gap-4 sm:grid-cols-2">

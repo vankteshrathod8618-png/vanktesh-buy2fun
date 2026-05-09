@@ -47,8 +47,8 @@ export function ContactForm() {
     return (
         <form id="contact" onSubmit={handleSubmit} className="glass-panel rounded-[2rem] border-white/10 p-8 shadow-glow backdrop-blur-xl">
             <p className="text-sm uppercase tracking-[0.3em] text-slate-500">Contact</p>
-            <h3 className="mt-4 text-3xl font-semibold text-white">Ready to launch?</h3>
-            <p className="mt-4 text-sm leading-7 text-slate-400">Share your goals and we’ll respond with a tailored launch plan.</p>
+            <h3 className="mt-4 text-3xl font-semibold text-white">Need Help?</h3>
+            <p className="mt-4 text-sm leading-7 text-slate-400">Have questions about our products or need assistance with your order? We're here to help!</p>
             <div className="mt-8 grid gap-4">
                 <label className="space-y-2 text-sm text-slate-200">
                     <span>Name</span>
@@ -76,7 +76,7 @@ export function ContactForm() {
                     <textarea
                         value={form.message}
                         onChange={(event) => handleChange('message', event.target.value)}
-                        placeholder="Tell us about your launch goals."
+                        placeholder="Tell us how we can help with your shopping experience."
                         rows={6}
                         className="w-full rounded-3xl border border-white/10 bg-slate-950/80 px-4 py-3 text-sm text-white outline-none transition focus:border-brand-400 focus:ring-2 focus:ring-brand-400/20"
                         required

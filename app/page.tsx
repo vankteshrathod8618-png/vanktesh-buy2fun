@@ -15,7 +15,7 @@ export default function HomePage() {
 
             <section id="features" className="border-t border-white/10 px-6 py-20 sm:px-10 lg:px-14">
                 <div className="mx-auto max-w-7xl">
-                    <SectionHeading eyebrow="Why teams choose Aurea" title="Design, launch, and iterate without compromise." />
+                    <SectionHeading eyebrow="Why customers love Buy 2 Fun" title="Quality products, exceptional service, unbeatable value." />
                     <div className="mt-12 grid gap-6 lg:grid-cols-3">
                         {features.map((feature) => (
                             <FeatureCard key={feature.title} feature={feature} />
