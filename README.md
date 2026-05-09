@@ -55,3 +55,4 @@ Deploy the site to Vercel by connecting the repository. Add the same environment
 
 - The contact endpoint is API-ready and can be extended to connect email providers or CRM services.
 - The authentication system is scaffolded with secure environment values and can be expanded to external identity providers.
+# vanktesh-buy2fun
