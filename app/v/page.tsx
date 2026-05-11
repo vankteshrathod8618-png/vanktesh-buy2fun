@@ -1,0 +1,43 @@
+import Link from 'next/link';
+
+export default function VPage() {
+    return (
+        <section className="min-h-screen bg-slate-950 px-6 py-24 text-white sm:px-10 lg:px-14">
+            <div className="mx-auto max-w-5xl rounded-[2rem] bg-slate-900/90 p-10 shadow-glow ring-1 ring-white/10 backdrop-blur-xl">
+                <div className="grid gap-10 lg:grid-cols-[0.95fr_0.8fr] lg:items-center">
+                    <div className="space-y-8">
+                        <div className="space-y-3">
+                            <p className="text-sm uppercase tracking-[0.32em] text-brand-300">Vanktesh Profile</p>
+                            <h1 className="text-4xl font-semibold tracking-tight text-white">Vanktesh Rathod</h1>
+                            <p className="max-w-2xl text-lg leading-8 text-slate-300">Qualification: Engineering</p>
+                        </div>
+
+                        <blockquote className="rounded-[1.5rem] border border-white/10 bg-white/5 p-8 text-xl leading-9 text-slate-100 shadow-lg">
+                            “Thank you for understanding me even in moments when I couldn’t explain myself.”
+                        </blockquote>
+
+                        <div className="flex flex-wrap gap-3 text-sm">
+                            <span className="rounded-full bg-brand-300 px-4 py-2 font-semibold text-slate-950">Name: Vanktesh Rathod</span>
+                            <span className="rounded-full bg-slate-800 px-4 py-2 text-slate-200">Qualification: Engineering</span>
+                        </div>
+
+                        <Link
+                            href="/"
+                            className="inline-flex w-full max-w-max items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-200"
+                        >
+                            Back to home
+                        </Link>
+                    </div>
+
+                    <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-2">
+                        <img
+                            src="/vanktesh.jpg"
+                            alt="Vanktesh Rathod"
+                            className="h-full w-full rounded-[1.5rem] object-cover"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
