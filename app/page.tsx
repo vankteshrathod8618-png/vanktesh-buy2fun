@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FeatureCard } from '@/components/feature-card';
 import { HeroSection } from '@/components/hero-section';
 import { Testimonials } from '@/components/testimonials';
@@ -98,7 +99,9 @@ export default function HomePage() {
                     <p className="text-lg font-semibold text-slate-900">
                         Created by{' '}
                         <span className="inline-flex gap-1">
-                            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">S</span>
+                            <Link href="/s" className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-brand-300 text-sm font-bold text-slate-950 transition hover:bg-brand-200">
+                                S
+                            </Link>
                             <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">U</span>
                             <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">V</span>
                             <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">Y</span>
