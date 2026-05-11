@@ -95,7 +95,15 @@ export default function HomePage() {
 
             <section className="px-6 py-16 sm:px-10 lg:px-14">
                 <div className="mx-auto max-w-7xl rounded-[2rem] bg-white/95 px-4 py-3 text-center">
-                    <p className="text-lg font-semibold text-slate-900">Created by SUVY</p>
+                    <p className="text-lg font-semibold text-slate-900">
+                        Created by{' '}
+                        <span className="inline-flex gap-1">
+                            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">S</span>
+                            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">U</span>
+                            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">V</span>
+                            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">Y</span>
+                        </span>
+                    </p>
                 </div>
             </section>
         </>
