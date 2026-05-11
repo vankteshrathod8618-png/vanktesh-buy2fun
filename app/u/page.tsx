@@ -16,11 +16,6 @@ export default function UPage() {
                             “No matter what happens, I’ll always appreciate the way you’ve been there for me.”
                         </blockquote>
 
-                        <div className="flex flex-wrap gap-3 text-sm">
-                            <span className="rounded-full bg-brand-300 px-4 py-2 font-semibold text-slate-950">Name: Uday HR</span>
-                            <span className="rounded-full bg-slate-800 px-4 py-2 text-slate-200">Qualification: Engineering</span>
-                        </div>
-
                         <Link
                             href="/"
                             className="inline-flex w-full max-w-max items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-200"
@@ -31,7 +26,7 @@ export default function UPage() {
 
                     <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-2">
                         <img
-                            src="/uday.jpg"
+                            src="/uday.svg"
                             alt="Uday HR"
                             className="h-full w-full rounded-[1.5rem] object-cover"
                         />
