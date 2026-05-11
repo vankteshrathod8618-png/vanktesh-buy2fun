@@ -102,7 +102,9 @@ export default function HomePage() {
                             <Link href="/s" className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-brand-300 text-sm font-bold text-slate-950 transition hover:bg-brand-200">
                                 S
                             </Link>
-                            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">U</span>
+                            <Link href="/u" className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-brand-300 text-sm font-bold text-slate-950 transition hover:bg-brand-200">
+                                U
+                            </Link>
                             <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">V</span>
                             <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-sm font-bold text-white">Y</span>
                         </span>
